@@ -27,3 +27,62 @@
     border-radius: 5px;
     margin: 10px;
 }
+
+/* Top content area */
+
+.top-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: solid black 1px;
+        background-image: linear-gradient(
+            60deg,
+            rgba(57, 60, 90, 0.85),
+            rgba(180, 180, 120, 0.5)
+          ),
+          url(https://cdn.britannica.com/82/195482-050-2373E635/Amalfi-Italy.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 500px;
+      }
+
+/* Services section */   
+
+      .services-title {
+        display: flex;
+        justify-content: center;
+      }
+
+      .services {
+        display: flex;
+        justify-content: center;
+        flex-flow: row wrap;
+      }
+      
+      .service {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+        padding: 24px;  
+        color: white;
+        text-shadow: 2px 2px 1px black;
+      }
+      
+      .service-icon {
+        width: 350px;
+        height: 200px;
+        border: 12px solid rgb(230, 250, 250);
+        border-radius: 32px;
+        box-shadow: 2px 2px 3px black;
+        object-fit: cover;
+      }
+      
+      .service-text {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        flex-wrap: wrap;
+        max-width: 200px;
+        font-size: 18px;
+        font-weight: bold;
+      }
