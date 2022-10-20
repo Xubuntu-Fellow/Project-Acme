@@ -1,0 +1,29 @@
+/* Company logo and links */
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid #0A5095;
+}
+
+.logo {
+    margin-right: auto;
+}
+
+.links {
+    margin-left: auto;
+    margin: 110px 100px 0px 0px;
+    font-weight: bold;
+    font-family: arial;
+}
+
+.links a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border: 2px solid #0A5095;
+    background-color: #E7383E;
+    border-radius: 5px;
+    margin: 10px;
+}
